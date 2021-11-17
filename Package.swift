@@ -29,7 +29,7 @@ import PackageDescription
 let package = Package(
     name: "PerfectCrypto",
 	platforms: [
-		.macOS(.v10_15)
+		.macOS(.v10_13)
 	],
 	products: [
 		.library(name: "PerfectCrypto", targets: ["PerfectCrypto"])
